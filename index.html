@@ -24,16 +24,16 @@
             </div>
         </nav>
         <div class="jumbotron cemter">
-        <div class="container-fluid">
+        <div class="container">
             <h1>To Do List</h1>
             <ol>
                 <li v-for='action in actions'>{{action}}</li>
             </ol>
         </div>
-         <label for="add-action"><strong>Add-Action</strong></label><input type="text" v-model="act">
+         <label for="add-action"><strong>Adding- </strong></label><input type="text" v-model="act">
          <button v-on:click="addaction">Add action </button>
          <br> 
-         <label for="add-action"><strong>Add-Action</strong></label><input type="text" v-model="pos">
+         <label for="add-action"><strong>Remove </strong></label><input type="text" v-model="pos">
          <button v-on:click="remove_action">Remove Action</button>
         </div>
     </div>

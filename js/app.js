@@ -2,7 +2,7 @@
 var vm = new Vue({
     el: '#app', // vue instance to call in html
 
-    
+
     data: { // state or global data to manage in vue 
         actions: ["Prier", "Nettoyer", "Balayer", "Preparer"],
         act: "",
